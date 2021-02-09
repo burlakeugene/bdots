@@ -151,3 +151,7 @@ export const prepareColor = (color) => {
   }
   return color;
 }
+
+export const getRandomBetween = (min, max) => {
+  return Math.floor(Math.random() * (max - min) ) + min;
+}
